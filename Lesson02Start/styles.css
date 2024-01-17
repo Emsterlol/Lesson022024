@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("WidgetCoLogo.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    height: 100vh;
+}
+
+header {
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-width: 1px;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+    font-variant: small-caps;
+    margin-top: 3px;
+}
+
+aside {
+    text-align: right;
+    font-size: large;
+    float: right;
+    width: 40%;
+    padding-right: 20px;
+    position: relative;
+  }
+
+.vertical-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: -4px;
+    border-right: 15px solid #333;
+  }
+
+h1 {
+    font-size: 60px;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    margin-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+aside::first-line {
+    font-weight: bold;
+}
+
+article {
+    font-family:'Times New Roman', Times, serif;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 20px;
+    text-align: justify;
+}
+
+p {
+    margin-bottom: 15px;
+    line-height: 2;
+  }
+
+section {
+    border-width: 5px 5px 5px 30px;
+    border-style: solid;
+    border-color: #009639;
+    padding: 15px;
+    margin: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+footer {
+    border-top-style: solid;
+    text-align: right;
+    border-width: 1px;
+    opacity: 0.7;
+    color: grey;
+    font-style: italic;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+footer a:link {
+    color: grey;
+    font-style: italic;
+    
+}
